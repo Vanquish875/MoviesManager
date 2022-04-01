@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dharr\\source\\repos\\MoviesManager\\MoviesManager\\MoviesManager.csproj": {}
+    "C:\\Users\\dharr\\OneDrive\\Documents\\GitHub\\MoviesManager\\MoviesManager\\MoviesManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dharr\\source\\repos\\MoviesManager\\MoviesManager\\MoviesManager.csproj": {
+    "C:\\Users\\dharr\\OneDrive\\Documents\\GitHub\\MoviesManager\\MoviesManager\\MoviesManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dharr\\source\\repos\\MoviesManager\\MoviesManager\\MoviesManager.csproj",
+        "projectUniqueName": "C:\\Users\\dharr\\OneDrive\\Documents\\GitHub\\MoviesManager\\MoviesManager\\MoviesManager.csproj",
         "projectName": "MoviesManager",
-        "projectPath": "C:\\Users\\dharr\\source\\repos\\MoviesManager\\MoviesManager\\MoviesManager.csproj",
+        "projectPath": "C:\\Users\\dharr\\OneDrive\\Documents\\GitHub\\MoviesManager\\MoviesManager\\MoviesManager.csproj",
         "packagesPath": "C:\\Users\\dharr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dharr\\source\\repos\\MoviesManager\\MoviesManager\\obj\\",
+        "outputPath": "C:\\Users\\dharr\\OneDrive\\Documents\\GitHub\\MoviesManager\\MoviesManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
